@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Home Page */
+  .home {
+    text-align: center;
+  }
+  
+  .home p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Add Pokemon Page */
+  .add-pokemon-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-pokemon-form label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .add-pokemon-form input,
+  .add-pokemon-form select,
+  .add-pokemon-form button {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  .add-pokemon-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-pokemon-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pokemon List Page */
+  .pokemon-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pokemon-list th,
+  .pokemon-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .pokemon-list th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pokemon-list td button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pokemon-list td button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Pokemon Movement Page */
+  .pokemon-movement select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .pokemon-movement ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .pokemon-movement li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
